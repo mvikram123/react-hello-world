@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import  ReactDOM from "react-dom";
+//import Button from "./Components/Button";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App=()=>{
+    let a=100;
+    let style2={textAlign:"center", color:"red", backgroundColor:"yellow"}
+    return (
+            <div className="hello">
+              <h1>value of a is {a}</h1>
+              <h2 style={style2}>Hello world</h2>
+              <p>hello, how are you !!!</p>
+              </div>
+    )
+  }
 
 export default App;

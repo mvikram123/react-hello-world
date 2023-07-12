@@ -1,17 +1,18 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom';
+import './style.css';
+import App from "./App";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// function Hello(){
+//   let a=100;
+//   let style2={textAlign:"center", color:"red", backgroundColor:"yellow"}
+//   return (
+//           <div className="hello">
+//             <h1>value of a is {a}</h1>
+//             <h2 style={style2}>Hello world</h2>
+//             <p>hello, how are you !!!</p>
+//             </div>
+//   )
+// }
+ReactDOM.render(<App/>, document.getElementById("root"));
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
