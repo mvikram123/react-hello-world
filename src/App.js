@@ -9,8 +9,8 @@ const App=()=>{
             <h1>Hello World</h1>
 
          <Button text="Apple" color="red"/>
-         <Button text="Apple" color="red"/>
-         <Button />
+         <Button text="Orange" color="Orange"/>
+         <Button text="banana" color="yellow"/>
          
         </div>
     )
