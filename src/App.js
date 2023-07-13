@@ -8,8 +8,8 @@ const App=()=>{
         <div className="hello">
             <h1>Hello World</h1>
 
-         <Button />
-         <Button />
+         <Button text="Apple" color="red"/>
+         <Button text="Apple" color="red"/>
          <Button />
          
         </div>

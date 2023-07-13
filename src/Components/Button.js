@@ -1,10 +1,12 @@
 import React from "react";
 //import  ReactDOM  from "react-dom";
-const Button=()=>{
+const Button=(props)=>{
+  //  props.text="guava";  // we can not do this because props is read only object/property
+
     return(
         <div>
-            <button>Apple</button>
-            <p>This is a apple button</p>
+            <button>{props.text}</button>
+            <p>This is a {props.text} which is {props.color} in color</p>
         </div>
     )
 }
