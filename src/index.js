@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
 import App from "./App";
+import Button from "./Components/Button";
 
 // function Hello(){
 //   let a=100;
